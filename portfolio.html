@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <section>
+    <!-- Navbar Start -->
+ <div class="container-fluid fixed-top px-0 wow fadeIn shadow-lg  data-wow-delay="0.1s style="top: 0px">
+   <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+       <div class="col-lg-6 px-5 text-end">
+         
+           <small><i class="fa fa-envelope text-primary me-2"></i><a href="mailto:jigyashachauhan5@gmail.com">jigyashachauhan5@gmail.com</a></small>
+           <small class="ms-4"><i class="fa fa-phone-alt text-primary me-2"></i><a href="tel:+916398480640">+91 6398480640</a></small>
+       </div>
+   </div>
+ 
+   <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+       <a href="#" class="navbar-brand ms-4 ms-lg-0 animated slideInUp ">
+           <h1 class="display-5 text-primary m-0">CodeLine</h1>
+       </a>
+       <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+           data-bs-target="#navbarCollapse">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse animated slideInDown" id="navbarCollapse">
+           <div class="navbar-nav ms-auto p-4 p-lg-0">
+               <a href="#" class="nav-item nav-link active">Home</a>
+               <a href="#about" class="nav-item nav-link">About</a>
+               <a href="#services" class="nav-item nav-link">Services</a>
+               <a href="#projects" class="nav-item nav-link">Projects</a>
+               <a href="#contact" class="nav-item nav-link">Contact</a>
+           </div>
+       </div>
+   </nav>
+ </div>
+ <!-- Navbar End -->
+  </section>
+
+  <!-- Carousel Start -->
+  <div class="container-fluid p-0 mb-5 wow fadeIn shadow-lg" data-wow-delay="0.1s" style="margin-top: 140px;">
+    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-fluid" src="images/bn page.png" alt="">
+        </div>
+        <div class="carousel-item">
+          <img class="img-fluid" src="images/Single Image.png" alt="">
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row justify-content-start">
+                <!-- <div class="col-lg-5">
+                  <h4 class="display-4 mb-0 animated slideInDown text-primary">Turning Ideas into Code, and Code into
+                    Solutions.</h4>
+                  <hr>
+                  <a href="tel:+916398480640" class="btn btn-danger py-2 px-5 animated slideInDown">
+                    <b>Call</b></a>
+                </div> -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- Carousel End -->
+
+  <section>
+    <p id="about" class="text-center text-primary fw-semi-bold display-5 mb-0"><b>About Me</b></p>
+    <!-- About Start -->
+    <div class="container-xxl">
+      <div class="container">
+
+        <div class="row g-4 align-items-end mb-4">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <img class="img-fluid rounded animated slideInLeft" src="images/photo.jpg" alt=""
+              style="width: 300px; height: 300px;  border-radius: 50%;">
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+
+            <h1 class="display-5 mb-4">Turning Code into Real-World Solutions</h1>
+            <p class="mb-4" style="text-align: justify;">Hi, I'm Jigyasha — a passionate Java Developer with a solid
+              foundation in backend development using Java, Spring Boot, and MySQL.Alongside backend skills, I also have
+              experience with HTML, CSS, and JavaScript, allowing me to build
+              responsive and interactive frontends as well. I specialize in building RESTful APIs, solving complex logic
+              problems, and delivering clean, maintainable
+              code for web applications.Whether it’s building a backend system or designing a frontend layout, I focus
+              on writing quality code and
+              meeting deadlines.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Projects-->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center text-primary fw-bold mb-5">My Projects</h2>
+
+      <!-- Project 1 -->
+      <div class="row mb-5 align-items-center">
+        <!-- Left: Project Code/Description -->
+        <div class="col-md-6">
+          <h4 class="fw-bold">📚 Library Management System</h4>
+          <p>
+            A full-stack Library Management System developed using <strong>Java (JSP/Servlet)</strong>,
+            <strong>MySQL</strong>, <strong>HTML/CSS</strong>, and <strong>Bootstrap</strong>.
+            It provides seamless library operations with secure login, book management, and real-time tracking.
+          </p>
+          <pre class="bg-dark text-white p-3 rounded" style="font-size: 0.85rem;">
+      #Student Login & logout using Session Management
+       Add books with MySQL backend
+       Book Issue & Return with due date tracking
+       Responsive UI built with HTML, CSS, and Bootstrap
+       <a href="https://github.com/Jigyasha-Chauhan555/Library-Management-System" class="btn btn-primary mt-3">View Code on GitHub</a>
+
+    </pre>
+        </div>
+        <!-- Right: Image/Preview (optional) -->
+        <div class="col-md-6 text-center">
+          <img src="images/library design.png" class="img-fluid rounded shadow"
+            style="max-width: 100%; height: auto;" alt="Car Price Project">
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="row mb-5 align-items-center flex-md-row-reverse">
+        <!-- Left: Project Description -->
+        <div class="col-md-6">
+          <h4 class="fw-bold">📦 Online Banking Management System</h4>
+          <p>
+            Developed a web-based online banking platform using Java (SpringBoot Framework) and MySQL. Implemented
+            secure login, fund transfer functionality, and transaction history using servlet sessions and database
+            integration.
+          </p>
+          <pre class="bg-dark text-white p-3 rounded" style="font-size: 0.85rem;">
+// Java Sample Code:
+using java Mysql and SpringBoot Framework
+<a href="https://github.com/Jigyasha-Chauhan555/online-banking-springboot-project" class="btn btn-primary mt-3">View Code on GitHub</a>
+
+        </pre>
+        </div>
+        <!-- Right: Image (optional) -->
+        <div class="col-md-6 text-center">
+          <img src="images/banking design.png" class="img-fluid rounded shadow" style="max-width: 100%; height: auto;"
+            alt="Inventory System">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Project 3 -->
+    <div class="row mb-5 align-items-center" style="margin-left: 5%;">
+      <!-- Left: Project Code/Description -->
+      <div class="col-md-6">
+        <h4 class="fw-bold"> E-commerce Website</h4>
+        <p>
+          A complete online shopping platform built using <strong>Java Spring Boot</strong> for backend and
+          <strong>HTML/CSS/Bootstrap</strong> for frontend UI. Features include secure login, dynamic product listing,
+          cart & checkout, and admin dashboard.
+        </p>
+        </p>
+        <pre class="bg-dark text-white p-3 rounded" style="font-size: 0.85rem;">
+        #pring Security-based authentication
+         Responsive UI with Bootstrap
+         CRUD operations for products & orders
+         MySQL database integration with JPA
+       <a href="https://github.com/Jigyasha-Chauhan555/E-Commerce-website" class="btn btn-primary mt-3">View Code on GitHub</a>
+
+    </pre>
+      </div>
+      <!-- Right: Image/Preview (optional) -->
+      <div class="col-md-6 text-center">
+        <img src="images/shopping design.png" class="img-fluid rounded shadow" style="max-width: 100%; height: auto;"
+          alt="Car Price Project">
+      </div>
+    </div>
+  </section>
+  <!--Projects ends-->
+
+  <!--Services-->
+
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 text-primary">My Services</h2>
+      <div class="row text-center">
+
+        <!-- Java Development -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm p-3">
+            <img src="images/Untitled design.png" alt="Java" class="mx-auto" style="width: 80px; height: 80px;">
+            <h5 class="mt-3 fw-bold">Java Development</h5>
+            <p>Secure and scalable Java web applications using JSP, Servlets, and Spring Boot.</p>
+          </div>
+        </div>
+
+        <!-- Frontend Design -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm p-3">
+            <img src="images/web_development.png" alt="Frontend" class="mx-auto" style="width: 80px; height: 80px;">
+            <h5 class="mt-3 fw-bold">Frontend Design</h5>
+            <p>Modern, responsive UI with HTML, CSS, Bootstrap, and JavaScript.</p>
+          </div>
+        </div>
+
+        <!-- Full Stack Development -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm p-3">
+            <img src="images/developer design.png" alt="Full Stack" class="mx-auto" style="width: 80px; height: 80px;">
+            <h5 class="mt-3 fw-bold">Full Stack Development</h5>
+            <p>End-to-end website solutions with Java backend and MySQL database integration.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--Services ends-->
+
+
+  <!--contant -->
+
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center text-primary mb-4">Contact Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form action="https://formsubmit.co/jigyashachauhan555@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+
+            <div class="mb-3">
+              <label for="firstName" class="form-label">First Name</label>
+              <input type="text" name="First Name" class="form-control" id="firstName" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="lastName" class="form-label">Last Name</label>
+              <input type="text" name="Last Name" class="form-control" id="lastName" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" name="Email" class="form-control" id="email" required>
+            </div>
+
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--contact ends-->
+
+  <!--Footer-->
+  <footer class="bg-dark text-light text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-2">Developed by Jigyasha Chauhan</p>
+
+      <div class="social-icons mb-3">
+        <a href="https://www.linkedin.com/in/jigyasha-chauhan-abb325311/" target="_blank" class="mx-2 text-light">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://github.com/Jigyasha-Chauhan555" target="_blank" class="mx-2 text-light">
+          <i class="fab fa-github fa-lg"></i>
+        </a>
+        <a href="mailto:jigyashachauhan5@gmail.com" class="mx-2 text-light">
+          <i class="fas fa-envelope fa-lg"></i>
+        </a>
+      </div>
+
+      <p class="mb-0" style="font-size: 0.9rem;">© 2025 Jigyasha Chauhan. All rights reserved.</p>
+    </div>
+  </footer>
+  <!--Footer ends-->
+
+</body>
+
+</html>
